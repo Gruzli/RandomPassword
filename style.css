@@ -1,0 +1,89 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#password {
+    font-weight: bold;
+    color: #008080;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #008080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005757;
+}
+
+/* Updated styles for border and shadow */
+.container {
+    border: 2px solid #008080;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for options */
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.options label {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+/* Styles for length option */
+.length-option {
+    margin-bottom: 20px;
+}
+.length-option label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.length-option input {
+    width: 50px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+/* Styles for notification */
+.notification {
+    color: red;
+    font-size: 1em;
+    margin-top: 10px;
+    visibility: hidden;
+}
